@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order and unorder list</title>
+    <style>
+    .list1
+    {
+        list-style-type:upper-alpha;
+    }
+    .list2{
+        list-style-type:lower-roman;
+    }
+    .li1
+    {
+        list-style-type:circle;
+    }
+    .list3
+    {
+        list-style-type:disc;;
+    }
+    .list5
+    {
+        list-style-type:none;
+    }
+    .li5
+    {
+        list-style-type:none;
+    }
+    .list6
+    {
+        list-style-type:none;
+    }
+    </style>
+</head>
+<body>
+    <h1>List Example</h1>
+    <ol>
+        <li>List Item 1</li>
+        <ol class="list1">
+            <li>Nested item 1.1</li>
+            <li>Nested item 1.2</li>
+        </ol>
+        <li>List Item 2</li>
+        <ol class="list2">
+            <li>Nested item 2.1</li>
+            <li>Nested item 2.2</li>
+            <ul >
+             <li>Nested item 2.2.1</li>
+             <li>Nested item 2.2.2</li>   
+            <ul class="li1">
+                <li>Nested item 2.2.2.1</li>
+                <li>Nested item 2.2.2.2</li>
+            </ul>
+        <li>Nested item 2.2.3</li></ul>
+        <li>Nested item2.3</li>
+    </ol>
+        <li>List Item 3</li>
+        <ul class="list3"><li>Item 1</li>
+        <li>Item 2</li>
+    <li>Item 3</li></ul>
+</ol>
+<dl>
+    <dt>COMP 376</dt>
+        <dd>Introduction to game Programming</dd>
+    <dt>Soen287</dt>
+        <dd>Web Programming</dd>
+</dl>
+<li class="list6" >This is a <sup>5</sup>test<sub>9</sub> for Assignment 1.</li>
+</body>
+</html>

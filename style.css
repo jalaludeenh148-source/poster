@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #00154d;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header-yellow {
+    background: #ffdb58;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-yellow h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .think-again {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .think-again h2 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+  }
+  
+  .think-again p {
+    font-size: 18px;
+    margin-top: 10px;
+  
+  font-weight: bold;
+  }
+  
+  .comparison-table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #00154d;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 16px;
+  }
+  
+  th {
+    background: #ffe6b3;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .callout {
+    background: #00154d;
+    text-align: center;
+    margin: 30px 0;
+  }
+  
+  .callout h3 {
+    font-size: 20px;
+    color: #ffdb58;
+    margin: 0;
+    padding: 15px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px dashed #ccc;
+    padding-top: 20px;
+  }
+  
+  .footer .left {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer .right {
+    text-align: right;
+  }
+  
+  .footer .right h2 {
+    font-size: 26px;
+    margin: 5px 0 0;
+    color: #ffdb58;
+  }
